@@ -13,7 +13,7 @@ app.get("/", function(req, res){
         "slackUsername": "clughas", 
         "backend": true,
         "age": 28,
-        "bio": "Hi HNG9, I am Charles Lughas. I am a beginner backend developer and love solving programming challenges. I look forward to working with HNG.",
+        "bio": "Hi HNG9, I am Charles Lughas. I am a beginner backend developer and love solving programming challenges. I look forward to a great learning and internship with HNG.",
 
     });
 });
