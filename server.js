@@ -1,11 +1,9 @@
+//jshint esversion:6
 
 const express = require("express");
-const { STATUS_CODES } = require("node:http");
-const https = require('node:https');
-
 
 const app = express();
-
+const PORT = process.env.PORT || 3030;
 // app.get("/", function(req,res){
 //     res.send("Hello World");
 // });
@@ -21,6 +19,6 @@ app.get("/", function(req, res){
 });
 
 
-app.listen(3000, () => {
-    console.log("server has started on port 3000");
+app.listen(PORT, () => {
+    console.log('server has started on port ${PORT}');
 });
